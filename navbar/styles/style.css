@@ -40,3 +40,20 @@
   border-radius: 10px;
   background: #252440;
 }
+
+.nav__icon {
+  display: none;
+  height: 40px;
+  width: 40px;
+}
+
+@media (max-width: 600px) {
+  .nav__link {
+      display: none;
+  }
+
+  .nav__icon {
+      display:block;
+
+  }
+}
