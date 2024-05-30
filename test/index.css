@@ -6,130 +6,120 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
+font-family: Poppins;
+}
 
+p{
+    margin:0
 }
 
 .container{
-text-align: center;
 margin-bottom: 30px;
+display: flex;
+flex-direction: column;
+align-items: center;
+
 
 }
 
 
 .title{
-width: 230px;
-top: 2004px;
-left: 621px;
-gap: 0px;
-opacity: 0px;
 font-family: Poppins;
 font-size: 40px;
 font-weight: 700;
 line-height: 60px;
 margin-bottom: 10px;
+align-items: center;
+
 
 
 }
 
 .paragraph1{
 width: 423px;
-top: 2074px;
-left: 528px;
-gap: 0px;
 opacity: 0px;
 font-family: Poppins;
 font-size: 20px;
 font-weight: 500;
 line-height: 30px;
-text-align: left;
+text-align: center;
 
 }
 
 .navbar{
 width: 894px;
-top: 2164px;
-left: 274px;
-gap: 0px;
-border-radius: 10px 0px 0px 0px;
-opacity: 0px;
+border-radius: 10px;
 margin-right: 15px;
+display: flex;
+flex-direction: row;
+align-items: center;
+
+}
+
+.white2{
+width: 288px;
+padding: 5px 70px 5px 70px;
+gap: 10px;
+border-radius: 10px;
+background: #B5B5B51A;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+color: black;
+text-decoration: none;
+text-align: center;
 
 }
 
 .white1{
-width: 288px;
-top: 2164px;
-left: 880px;
-padding: 5px 70px 5px 70px;
-gap: 10px;
-border-radius: 10px 0px 0px 0px;
-opacity: 0px;
-background: #B5B5B51A;
-font-family: Poppins;
-font-size: 20px;
-font-weight: 500;
-line-height: 30px;
-text-align: left;
-color: black;
-  text-decoration: none;
-
-
-}
-
-.green{
-    width: 288px;
-    top: 2164px;
-    left: 577px;
+    width: 480px;
     padding: 5px 70px 5px 70px;
     gap: 10px;
-    border-radius: 10px 0px 0px 0px;
-    opacity: 0px;
+    border-radius: 10px;
+    background: #B5B5B51A;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: black;
+      text-decoration: none;
+    text-align: center;
+    box-sizing: border-box;
+    
+    }
+.green{
+    width: 288px;
+    padding: 5px 70px 5px 70px;
+    gap: 10px;
+    border-radius: 10px;
     background: linear-gradient(214.02deg, #518C66 6.04%, #5BA691 92.95%);
     font-family: Poppins;
     font-size: 20px;
     font-weight: 500;
     line-height: 30px;
-    text-align: left;
     color: black;
   text-decoration: none;
-    
+  text-align: center;
 }
 
-.white2{
-width: 288px;
-top: 2164px;
-left: 880px;
-padding: 5px 70px 5px 70px;
-gap: 10px;
-border-radius: 10px 0px 0px 0px;
-opacity: 0px;
-background: #B5B5B51A;
-font-family: Poppins;
-font-size: 20px;
-font-weight: 500;
-line-height: 30px;
-text-align: left;
-color: black;
-text-decoration: none;
-}
+
 
 .card{
 width: 389px;
-top: 2234px;
-left: 526px;
-gap: 0px;
-opacity: 0px;
 margin-top: 30px;
+box-shadow: 0px 5px 4px 0px #00000040;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+border-radius: 10px;
+
 
 }
 
 .image{
 width: 337px;
-top: 2260px;
-left: 552px;
-gap: 0px;
-opacity: 0px;
-
+margin-bottom: 20px;
+margin-top: 26px;
 
 }
 
@@ -145,20 +135,19 @@ opacity: 0px;
         "subtitle1 subtitle2"
         "subtitle3 subtitle4";
     
+
+    
 }
 
 
 .subtitle1{
 width: 86px;
-top: 2660px;
-left: 552px;
-gap: 0px;
-opacity: 0px;
 font-family: Poppins;
 font-size: 20px;
 font-weight: 500;
 line-height: 30px;
 text-align: left;
+margin-left: 30px;
 
 
 
@@ -166,52 +155,40 @@ text-align: left;
 
 .subtitle2{
 width: 93px;
-top: 2660px;
-left: 796px;
-gap: 0px;
-opacity: 0px;
 font-family: Poppins;
 font-size: 15px;
 font-weight: 500;
 line-height: 22.5px;
+padding-left: 80px;
 
 }
 
 .subtitle3{
 width: 136px;
-top: 2700px;
-left: 552px;
-gap: 0px;
-opacity: 0px;
 font-family: Poppins;
 font-size: 20px;
 font-weight: 700;
 line-height: 30px;
 text-align: left;
+margin-left: 30px;
 
 
 }
 
 .subtitle4{
 width: 84px;
-top: 2683px;
-left: 805px;
-gap: 0px;
-opacity: 0px;
 font-family: Poppins;
 font-size: 20px;
 font-weight: 700;
 line-height: 30px;
 text-align: center;
-
+padding-left: 80px;
 }
 .cardbutton{
     width: 337px;
-    top: 2753px;
-    left: 552px;
     padding: 10px 7px 10px 7px;
     gap: 10px;
-    border-radius: 10px 0px 0px 0px;
+    border-radius: 10px;
     opacity: 0px;
     background: linear-gradient(214.02deg, #518C66 6.04%, #5BA691 92.95%);
     text-align: center;
@@ -219,5 +196,102 @@ text-align: center;
     flex-direction: column;
     color: black;
     text-decoration: none;
+    margin-top: 23px;
+    margin-bottom: 26px;
 
+}
+
+
+@media screen and (max-width: 900px) {
+    .navbar {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .white2, .white1, .green {
+        width: 100%;
+        padding: 5px 20px;
+    }
+
+    .card {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .image {
+        width: 90%;
+    }
+
+    .text {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "subtitle1"
+            "subtitle2"
+            "subtitle3"
+            "subtitle4";
+    }
+
+    .subtitle1, .subtitle3 {
+        margin-left: 10px;
+    }
+
+    .subtitle2, .subtitle4 {
+        padding-left: 10px;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .title {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .paragraph1 {
+        width: 90%;
+        font-size: 18px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .white2, .white1, .green {
+        padding: 5px 10px;
+        font-size: 18px;
+    }
+
+    .card {
+        width: 90%;
+        margin-top: 15px;
+    }
+
+    .image {
+        width: 80%;
+    }
+
+    .text {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "subtitle1"
+            "subtitle2"
+            "subtitle3"
+            "subtitle4";
+    }
+
+    .subtitle1, .subtitle3 {
+        margin-left: 5px;
+    }
+
+    .subtitle2, .subtitle4 {
+        padding-left: 5px;
+        text-align: left;
+    }
+
+    .cardbutton {
+        width: 80%;
+        padding: 5px;
+        font-size: 18px;
+    }
 }
