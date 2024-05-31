@@ -1,29 +1,41 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Lucrixo</title>
-<link rel="stylesheet" href="./index.css">
-</head>
-<body>
-<div class="container">
-    
-    <div class="title">
-    <h1>Bem vindo!</h1>
-    <h2>Vamos nos conectar em segundos!</h2>
-    </div>
+<html lang="en">
 
-    <form>
-        
-        <input type="text" id="username" placeholder="Username" name="username" required>        
-        
-        <input type="email" id="email" placeholder="Email Address" name="email" required>
-     
-        <input type="password" id="password" placeholder="Password" name="password" required>
-        
-        <button type="submit">Registrar</button>
-    </form>
-</div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Varela+Round&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="page">
+        <header class="header">
+
+            <nav class="nav">
+                <img src="./images/logo.png" alt="Logo" class="nav__logo">
+                <ul class="nav__links">
+
+                    <li>
+                        <a href="#" class="nav__link nav__link_inactive">Login</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="nav__link nav__link_active">Faça seu Registro</a>
+                    </li>
+
+                </ul>
+                <div class="nav__icon">☰</div>
+            </nav>
+
+        </header>
+    </div>
 </body>
+
 </html>

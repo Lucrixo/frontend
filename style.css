@@ -1,10 +1,11 @@
+/* CSS Base (Mobile First) */
 .nav {
   width: 100%;
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: center;
-  margin: 32px auto 0;
-  padding: 0 40px;
+  margin: 16px auto; /* Ajustado para 16px */
+  padding: 0 20px; /* Ajustado para 20px */
   box-sizing: border-box;
 }
 
@@ -14,13 +15,10 @@
 }
 
 .nav__links {
-  display: inline-flex;
-  padding: 10px;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 40px;
-  list-style-type:none;
+  display: none;
+  list-style-type: none;
   margin: 0;
+  padding: 0;
 }
 
 .nav__link {
@@ -47,7 +45,6 @@
   background: #427F8C;
 }
 
-
 .nav__link_inactive::before {
   content: '';
   position: absolute;
@@ -67,20 +64,40 @@
   transform: scaleX(1);
 }
 
-
 .nav__icon {
-  display: none;
+  display: block;
   height: 40px;
   width: 40px;
 }
 
-@media (max-width: 600px) {
-  .nav__link {
-      display: none;
+/* Estilos para tablets */
+@media (min-width: 600px) {
+  .nav {
+      margin: 24px auto;
+      padding: 0 30px;
+  }
+
+  .nav__links {
+      display: inline-flex;
+      padding: 10px;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 20px;
   }
 
   .nav__icon {
-      display:block;
+      display: none;
+  }
+}
 
+/* Estilos para desktop */
+@media (min-width: 992px) {
+  .nav {
+      margin: 32px auto 0;
+      padding: 0 40px;
+  }
+
+  .nav__links {
+      gap: 40px;
   }
 }
