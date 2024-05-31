@@ -1,0 +1,100 @@
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+background-color: #f0f0f0;
+font-family: Poppins;
+
+}
+
+.container{
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+    
+}
+
+.title{
+width: 673px;
+font-size: 40px;
+font-weight: 700;
+line-height: 60px;
+color: #252440;
+
+}
+
+.subtitle{
+width: 423px;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+text-align: center;
+color: #252440;
+
+    
+}
+
+
+p {
+margin: 10px 0;
+width: 423px;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+text-align: center;
+color:#252440;
+
+}
+
+.card-container {
+    display: flex;
+    gap: 24px;
+}
+
+.card {
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 389px;
+border-radius: 10px 0px 0px 0px;
+opacity: 0px;
+background-color: #fff;
+border: 1px solid #ddd;
+padding: 20px;
+text-align: center;
+box-shadow: 0px 5px 4px 0px #00000040;
+background: #FFFFFF1A;
+
+
+}
+
+.card img {
+width: 111px;
+height: 139px;
+
+}
+
+.p1 {
+margin: 10px 0;
+width: 111px;
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+color:#252440;
+text-align: center;
+}
+
+.p2{
+width: 307px;
+height: 92px;
+font-size: 15px;
+font-weight: 500;
+line-height: 22.5px;
+text-align: center;
+color:#252440;
+
+
+}
