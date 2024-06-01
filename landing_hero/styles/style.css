@@ -110,6 +110,12 @@ body {
   .hero__button {
     padding: 10px 20px;
     font-size: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .hero__button:hover {
+    background-color: #252440;
+    color: #f1f1f1;
   }
 
   .hero__nav {
