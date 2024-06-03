@@ -10,6 +10,6 @@ Este é o branch 'MAIN' do APP VemVai.
 
 ## ✒️ Autores
 
-* **Marina Bianchi** - *Design e Adaptação para React encontrada no repositorio 'build'* - [GitHub](https://github.com/orgs/Lucrixo/people/Bianchi-marina)
+* **Marina Bianchi** - *Design e Adaptação para React encontrada no repositorio ['build'](https://github.com/Lucrixo/build)* - [GitHub](https://github.com/orgs/Lucrixo/people/Bianchi-marina)
 * **Henrique Cunha** - *HTML, CSS e JS* - [Github](https://github.com/orgs/Lucrixo/people/Henrique-Cunha7)
 * **Tasnim Kheir** - *HTML, CSS e JS* - [Github](https://github.com/orgs/Lucrixo/people/tasnimkheir)
