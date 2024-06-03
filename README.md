@@ -1,5 +1,5 @@
 # Site de Reciclagem - Main
-Este é o branch com o componente 'REGISTRO' da pagina registro.
+Este é o branch com os componentes 'HERO' e 'NAVBAR' da pagina registro.
 
 ## 🛠️ Construído com
 
