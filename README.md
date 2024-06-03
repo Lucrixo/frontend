@@ -10,5 +10,5 @@ Este é o branch com o componente 'MAIN-HERO' da pagina landingpage.
 ## ✒️ Autores
 
 * **Marina Bianchi** - *Design* - [GitHub](https://github.com/orgs/Lucrixo/people/Bianchi-marina)
-* **Henrique Cunha** - *HTML e CSS* - [Github](https://github.com/orgs/Lucrixo/people/Henrique-Cunha7)
-* **Tasnim Kheir** - *HTML e CSS* - [Github](https://github.com/orgs/Lucrixo/people/tasnimkheir)
+* **Henrique Cunha** - *HTML, CSS e JS* - [Github](https://github.com/orgs/Lucrixo/people/Henrique-Cunha7)
+* **Tasnim Kheir** - *HTML, CSS e JS* - [Github](https://github.com/orgs/Lucrixo/people/tasnimkheir)
